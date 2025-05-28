@@ -1,0 +1,20 @@
+/* Stili personalizzati per la dashboard */
+
+/* Nessun CSS aggiuntivo significativo qui, dato che usiamo Tailwind CSS. */
+/* Se volete aggiungere stili non coperti da Tailwind, fatelo qui. */
+/* Ad esempio, per un'animazione specifica o un font non standard. */
+
+/* Esempio: transizione per i bottoni */
+button {
+    transition: background-color 0.3s ease;
+}
+
+/* Stile per le righe della tabella al passaggio del mouse */
+#tableBody tr:hover {
+    background-color: #f3f4f6; /* gray-100 di Tailwind */
+}
+
+/* Stile per la modale di conferma */
+#confirmModal {
+    z-index: 1000; /* Assicura che la modale sia sopra gli altri elementi */
+}
